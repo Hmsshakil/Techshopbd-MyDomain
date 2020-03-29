@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Techshopbd</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/countrySelect.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!--Icon link of friconix-->
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
+    <script defer src="https://friconix.com/cdn/friconix-0.1040.js"></script>
+</head>
+
+<body>
+    <section id="head" class="bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-default navbar-expand-lg navbar-light bg-dark" style="border-bottom: 0">
+                <div class="navbar-header d-flex col">
+                    <a class="navbar-brand text-white" href="#"><small>Techshopbd@mail.com &nbsp;&nbsp;<span class="text-white">+880 1746672667</span></small></a>
+
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbar-toggler ml-auto">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collection of nav links, forms, and other content for toggling -->
+                <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+
+
+                    <ul class="nav navbar-nav navbar-right ml-auto">
+                        <li class="nav-item">
+                            <a data-toggle="dropdown" class="nav-link dropdown-toggle text-white" href="#">Login</a>
+                            <ul class="dropdown-menu form-wrapper">
+                                <li>
+                                    <form action="/examples/actions/confirmation.php" method="post">
+                                        <p class="hint-text">Sign in with your social media account</p>
+                                        <div class="form-group social-btn clearfix">
+                                            <a href="#" class="btn btn-primary pull-left"><i class="fa fa-facebook"></i> Facebook</a>
+                                            <a href="#" class="btn btn-info pull-right"><i class="fa fa-twitter"></i> Twitter</a>
+                                        </div>
+                                        <div class="or-seperator"><b>or</b></div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Username" required="required">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" placeholder="Password" required="required">
+                                        </div>
+                                        <input type="submit" class="btn btn-primary btn-block" value="Login">
+                                        <div class="form-footer">
+                                            <a href="#">Forgot Your password?</a>
+                                        </div>
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" data-toggle="dropdown" class="btn btn-light dropdown-toggle get-started-btn mt-1 mb-1">Sign up</a>
+                            <ul class="dropdown-menu form-wrapper">
+                                <li>
+                                    <form action="/examples/actions/confirmation.php" method="post">
+                                        <p class="hint-text">Fill in this form to create your account!</p>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Username" required="required">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" placeholder="Password" required="required">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" placeholder="Confirm Password" required="required">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a href="#">Terms &amp; Conditions</a></label>
+                                        </div>
+                                        <input type="submit" class="btn btn-primary btn-block" value="Sign up">
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </section>
+
+    <section id="cover-nav">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white" style="border-bottom: 0">
+
+                <!--  Show this only on mobile to medium screens  -->
+                <a class="navbar-brand d-lg-none" href="#"><img src="images/logo2.png" alt=""></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="">Catagory</span>
+                </button>
+
+                <!--  Use flexbox utility classes to change how the child elements are justified  -->
+                <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark" href="#">Women </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Men</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Children</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Collection</a>
+                        </li>
+                    </ul>
+
+
+                    <!--   Show this only lg screens and up   -->
+                    <a class="navbar-brand d-none d-lg-block" href="#"><img src="images/logo2.png" alt=""></a>
+
+
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Spring</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Summer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Fall</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Winter</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section id="cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-12 text-center text-md-left cover-text">
+                    <h1 class="">FASHION MEANS THAT WHO YOU ARE ?</h1>
+                    <p class="col-w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae voluptatum nemo vero, sequi, at reiciendis.</p>
+                    <a href="#" class="btn btn-white btn-md" style="border: 1px solid #343A40; margin-top: 10px"><span style="color:#343A40">SHOP NOW</span></a>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-md-4 col-12">
+                    <img src="images/f2.png" alt="" class="img-fluid cover-img ">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SHOP-->
+
+
+    <section id="shop" class="test-nav bg-dark py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-12 text-md-left text-center"><i class="fas fa-globe-asia text-white" style="padding-top:0px;margin-right:5px"></i>
+                    <select name="country" id="" class="bg-dark text-white w-50">
+                        <option value="">Aus</option>
+                        <option value="">US</option>
+                        <option value="">Arg</option>
+                        <option value="">Bel</option>
+                        <option value="">Bhu</option>
+                        <option value="" selected>BN</option>
+                        <option value="">CNA</option>
+                        <option value="">NZ</option>
+                        <option value="">WI</option>
+                        <option value="">AFC</option>
+                        <option value="">ARG</option>
+                    </select></div>
+                <div class="col-md-5 col-12 shop-a text-center text-md-left pt-2 pt-md-0">
+                    <a href="#">Shooping Cart</a>
+                    <a href="#">WishList(7)</a>
+                    <a href="#">Checkout</a>
+                    <a href="#">MyAccount</a>
+                </div>
+                <div class="col-md-4 col-12 text-center text-md-right mt-2 mt-md-0">
+                    <form class="form-inline d-inline shop-search">
+                        <input class="w-50 pb-1" type="search" placeholder="Search" aria-label="Search" style="width:190px;">
+                        <a href=""><i class="fas fa-search"></i></a>
+                    </form>
+                    <div class="cart d-inline">
+                        <i class="fas fa-shopping-cart"></i>
+                        <b style="color: black;">$80.00</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!--
+    <section id="shop" class="bg-dark">
+        <div class="container">
+
+
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark" style="border-bottom:0">
+
+                
+         <div class="btn-group">
+         <i class="fas fa-globe-asia" style="padding-top:10px;margin-right: 0"></i>
+  <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   
+  </button>
+  
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Bangladesh</a>
+    <a class="dropdown-item" href="#">France</a>
+    <a class="dropdown-item" href="#">Italy</a>
+    <a class="dropdown-item" href="#">Italy</a>
+    <a class="dropdown-item" href="#">Italy</a>
+    <a class="dropdown-item" href="#">Italy</a>
+    <a class="dropdown-item" href="#">Italy</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">America</a>
+  </div>
+</div>
+
+                <div class="country col-md-2 col-2"><i class="fas fa-globe-asia text-white" style="padding-top:0px;margin-right:5px"></i>
+                    <select name="country" id="" class="bg-dark text-white">
+                        <option value="">Aus</option>
+                        <option value="">US</option>
+                        <option value="">Arg</option>
+                        <option value="">Bel</option>
+                        <option value="">Bhu</option>
+                        <option value="" selected>BN</option>
+                        <option value="">CNA</option>
+                        <option value="">NZ</option>
+                        <option value="">WI</option>
+                        <option value="">AFC</option>
+                        <option value="">ARG</option>
+                    </select></div>
+                <div class="links col-md-6 col-6">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarToggle">
+
+                        <ul class="navbar-nav shop-ul">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Shoping Cart</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">WishList</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Checkout</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">My Account</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="form col-md-4 col-4 d-inline shop-last">
+                    <form class="form-inline d-inline">
+                        <input class="form-control shop-search" type="search" placeholder="Search" aria-label="Search" style="width:190px;">
+                        <a href=""><i class="fas fa-search"></i></a>
+                    </form>
+                    <div class="cart d-inline">
+                        <i class="fas fa-shopping-cart"></i>
+                        <b style="color: black;">$80.00</b>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </section>
+-->
+
+
+    <section id="popular" class="pt-5">
+        <div class="container">
+            <div class="popular-head text-center text-danger">
+                <h1>Popular Now</h1>
+            </div>
+            <div class="popular-gallery pb-5 pt-3">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active Shirt" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">T-Shirt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link Pants" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Pants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link Bags" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Bags</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+
+                        <div class="row">
+
+                            <div class="col-md-3 col-12 popular-item img-fluid pt-3 text-center"><img src="images/t1.jpg" alt="" class="border p-3 ">
+                                <h5 class="pt-3">Super T-shirtJeans Pants</h5>
+                                <p><b style="color:green;">$150.00</b></p>
+                            </div>
+
+                            <div class="col-md-3 col-12 popular-item img-fluid pt-3 text-center"><img src="images/t2.jpg" alt="" class="border p-3 ">
+                                <h5 class="pt-3">Super T-shirtJeans Pants</h5>
+                                <p><b style="color:green;">$150.00</b></p>
+                            </div>
+
+                            <div class="col-md-3 col-12popular-item img-fluid pt-3 text-center"><img src="images/t3.jpg" alt="" class="border p-3 ">
+                                <h5 class="pt-3">Super T-shirtJeans Pants</h5>
+                                <p><b style="color:green;">$150.00</b></p>
+                            </div>
+
+                            <div class="col-md-3 col-12 popular-item img-fluid pt-3 text-center"><img src="images/t4.jpg" alt="" class="border p-3 ">
+                                <h5 class="pt-3">Super T-shirtJeans Pants</h5>
+                                <p><b style="color:green;">$150.00</b></p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="tab-pane fade pt-3" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="row">
+                            <div class="col-md-3 col-12 popular-item img-fluid text-center"><img src="images/p1.jpg" alt="" class="border p-3">
+                                <h5 class="pt-3">Jeans Pants</h5>
+                                <p><b style="color:red;">$550.00</b></p>
+                            </div>
+                            <div class="col-md-3 col-12 popular-item img-fluid text-center"><img src="images/p2.jpg" alt="" class="border p-3">
+                                <h5 class="pt-3">Jeans Pants</h5>
+                                <p><b style="color:red;">$550.00</b></p>
+                            </div>
+                            <div class="col-md-3 col-12 popular-item img-fluid text-center"><img src="images/p3.jpg" alt="" class="border p-3">
+                                <h5 class="pt-3">Jeans Pants</h5>
+                                <p><b style="color:red;">$550.00</b></p>
+                            </div>
+                            <div class="col-md-3 col-12 popular-item img-fluid text-center"><img src="images/p4.jpg" alt="" class="border p-3">
+                                <h5 class="pt-3">Jeans Pants</h5>
+                                <p><b style="color:red;">$550.00</b></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tab-pane fade pt-3" id="contact" role="tabpanel" aria-labelledby="conta text-centerct-tab">
+                        <div class="row">
+                            <div class="col-md-3 col-12  popular-item img-fluid text-center"><img src="images/b1.jpg" alt="" class="border">
+                                <h5 class="pt-3">Chinese Bags</h5>
+                                <p><b style="color:red;">$480.00</b></p>
+                            </div>
+                            <div class="col-md-3 col-12  popular-item img-fluid text-center"><img src="images/b2.jpg" alt="" class="border">
+                                <h5 class="pt-3">Chinese Bags</h5>
+                                <p><b style="color:red;">$480.00</b></p>
+                            </div>
+                            <div class="col-md-3 col-12  popular-item img-fluid text-center"><img src="images/b3.jpg" alt="" class="border">
+                                <h5 class="pt-3">Chinese Bags</h5>
+                                <p><b style="color:red;">$480.00</b></p>
+                            </div>
+                            <div class="col-md-3 col-12  popular-item img-fluid text-center"><img src="images/b4.jpg" alt="" class="border">
+                                <h5 class="pt-3">Chinese Bags</h5>
+                                <p><b style="color:red;">$480.00</b></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="winter">
+        <div class="container">
+            <div class="winter-head text-center">
+                <h1 class="text-danger">New Winter Collection</h1>
+                <p class="w-50 m-auto pt-2 pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo facere doloribus accusantium, natus provident vero ipsa voluptatem quidem reiciendis maiores.</p>
+                <a class="btn btn-white border border-danger Winter-button" href="#">All Collection</a>
+            </div>
+            <div class="row winter-gallery pt-5">
+
+                <div class="col-md-3 col-12 text-center"><img src="images/p1.jpg" alt="" class="border py-3 px-2 img-fluid">
+                    <div class="winter-p m-auto w-100">
+                        <h5 class="d-inline">Super Pants</h5>
+                        <p class="d-inline ml-5"><b style="color:red;">$550.00</b></p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-12 text-center"><img src="images/p2.jpg" alt="" class="border py-3 px-2 img-fluid">
+                    <div class="winter-p pt-3 m-auto w-100">
+                        <h5 class="d-inline">Super Pants</h5>
+                        <p class="d-inline ml-5"><b style="color:red;">$550.00</b></p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-12 text-center"><img src="images/p3.jpg" alt="" class="border py-3 px-2 img-fluid">
+                    <div class="winter-p pt-3 m-auto w-100">
+                        <h5 class="d-inline">Super Pants</h5>
+                        <p class="d-inline ml-5"><b style="color:red;">$550.00</b></p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-12 text-center">
+                   <img src="images/p4.jpg" alt="" class="border py-3 px-2 img-fluid">
+                    <div class="winter-p pt-3 w-100 m-auto">
+                        <h5 class="d-inline">Super Pants</h5>
+                        <p class="d-inline ml-5"><b style="color:red;">$550.00</b></p>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="upto">
+        <div class="container">
+            <div class="upto-content text-center pt-5">
+
+                <h1 class="text-danger pt-4">SEASON SALE</h1>
+                <h1 class="text-white display-4">UP TO 80% OFF</h1>
+            </div>
+        </div>
+    </section>
+    <section id="newsletter">
+        <div class="container news">
+
+            <h3>Subscribe to newsletter:</h3>
+            <input class="" type="email" placeholder="Your Email">
+            <button class="btn btn-primary mt-md-0 mt-3">SUBSCRIBE</button>
+        </div>
+    </section>
+
+
+    <section id="ourcollection" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 text-md-left text-center">
+                    <h2 class="text-danger">From Our Collection</h2>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, perspiciatis.</p>
+                </div>
+                <div class="col-md-6 col-12 text-center m-auto collectionnav">
+                    <ul class="">
+                        <li class="ml-3"><a href="#">Winter</a></li>
+                        <li class="ml-3"><a href="#">Spring</a></li>
+                        <li class="ml-3"><a href="#">Summer</a></li>
+                        <li class="ml-3"><a href="#">Fall</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="collection-gallery pt-5">
+                <div class="row text-center">
+                    <div class="col-md-3 col-12 bg-text-center "><img class="border py-3 px-2 img-fluid" src="images/p1.jpg" alt="">
+                        <h5 class="pt-3">Spacial Clothes</h5>
+                        <p><b style="color:darkgreen">$45.00</b></p>
+                    </div>
+                    <div class="col-md-3 col-12 bg-text-center "><img class="border py-3 px-2 img-fluid" src="images/t1.jpg" alt="">
+                        <h5 class="pt-3">Spacial Clothes</h5>
+                        <p><b style="color:darkgreen">$45.00</b></p>
+                    </div>
+                    <div class="col-md-3 col-12 bg-text-center "><img class="border py-3 px-2 img-fluid" src="images/p2.jpg" alt="">
+                        <h5 class="pt-3">Spacial Clothes</h5>
+                        <p><b style="color:darkgreen">$45.00</b></p>
+                    </div>
+                    <div class="col-md-3 col-12 bg-text-center "><img class="border py-3 px-2 img-fluid" src="images/t2.jpg" alt="">
+                        <h5 class="pt-3">Spacial Clothes</h5>
+                        <p><b style="color:darkgreen">$45.00</b></p>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="w-100"></div>
+                    <div class="col-md-3 col-12 bg-text-center "><img class="border py-3 px-2 img-fluid" src="images/b1.jpg" alt="">
+                        <h5 class="pt-3">Spacial Clothes</h5>
+                        <p><b style="color:darkgreen">$45.00</b></p>
+                    </div>
+                    <div class="col-md-3 col-12 bg-text-center "><img class="border py-3 px-2 img-fluid" src="images/t3.jpg" alt="">
+                        <h5 class="pt-3">Spacial Clothes</h5>
+                        <p><b style="color:darkgreen">$45.00</b></p>
+                    </div>
+                    <div class="col-md-3 col-12 bg-text-center  pb-5"><img class="border py-3 px-2 img-fluid" src="images/b3.jpg" alt="">
+                        <h5 class="pt-3">Spacial Clothes</h5>
+                        <p><b style="color:darkgreen">$45.00</b></p>
+                    </div>
+                    <div class="col-md-3 col-12 bg-text-center "><img class="border py-3 px-2 img-fluid" src="images/p4.jpg" alt="">
+                        <h5 class="pt-3">Spacial Clothes</h5>
+                        <p><b style="color:darkgreen">$45.00</b></p>
+                    </div>
+                </div>
+                <div class="button text-center">
+                    <a class="btn btn-white border-danger" href="#">Show Me More</a></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="story">
+        <div class="row">
+            <div class="col-md-6 col-12 storyone">
+
+            </div>
+            <div class="col-md-6 col-12 storetwo">
+                <div class="container pt-md-5 mt-md-4 pt-0 mt-0 pb-mb-0  pb-4">
+                    <h2>Story Behind</h2>
+                    <img class="pt-3 pb-3" src="images/logo.png" alt="">
+                    <p class="pt-3 pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, qui.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit accusamus facere omnis adipisci enim nulla beatae perspiciatis? Neque, facere, ipsam.</p>
+                    <a class="btn btn-white border-danger btn-md" href="#">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12 text-center text-md-left">
+                    <img src="images/logo.png" alt="">
+                    <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci itaque, asperiores, sed amet libero totam!</p>
+                    <address class="text-success">
+                        Created By <b class="text-danger">Hms-shakil</b> <br>
+                        @2020-Techshopbd.shop
+                    </address>
+                </div>
+                <div class="col-md-2 col-6 pt-4 pt-md-0 footer-a">
+                    <h4>Links</h4>
+                    <a href="#">Home</a>
+                    <br>
+                    <a href="#">sign in</a> <br>
+                    <a href="#">Register</a> <br>
+                    <a href="#">FAQ</a> <br>
+                    <a href="#">Support</a> <br>
+                    <a href="#">Terms and Conditaion</a> <br>
+                </div>
+                <div class="col-md-2 col-6 pt-4 pt-md-0 footer-a">
+                    <h4>Shooping</h4>
+                    <a href="#">Shooping Cart</a> <br>
+                    <a href="#">Winter</a> <br>
+                    <a href="#">Spring</a> <br>
+                    <a href="#">Summer</a> <br>
+                    <a href="#">Fell</a> <br>
+                    <a href="#">Collection</a> <br>
+                </div>
+                <div class="col-md-4 col-12 text-center text-md-left pt-5 pt-md-0">
+                    <h4>Contact Us</h4>
+                    <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, modi!</p>
+                    <a class="btn btn-dark border-danger mt-2" href="#">Hmsshakilahmed2gmail.com</a>
+                    <br>
+                    <div class="footer-icon pt-2">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fab fa-github-alt"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/countrySelect.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <script type="text/javascript">
+        // Prevent dropdown menu from closing when click inside the form
+        $(document).on("click", ".navbar-right .dropdown-menu", function(e) {
+            e.stopPropagation();
+        });
+    </script>
+
+</body></html>
